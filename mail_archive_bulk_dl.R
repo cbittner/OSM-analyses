@@ -32,4 +32,3 @@
       filename <-paste( years[y], '-', months[m], ext, sep='')
       download.file(address, paste(path, filename, sep=""))
     }
-  
