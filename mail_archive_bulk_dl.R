@@ -26,7 +26,7 @@
     }
   }
 
-# collect the remaininf files for 2004
+# collect the remaining files for 2004
     for (m in 9:length(months)){
       address <- paste(link, years[y], '-', months[m], ext, sep='')
       filename <-paste( years[y], '-', months[m], ext, sep='')
